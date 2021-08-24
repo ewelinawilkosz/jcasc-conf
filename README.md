@@ -22,6 +22,8 @@ Details about JCasC available [here](https://github.com/jenkinsci/configuration-
 
 Check [docker-compose.yml](docker-compose.yml) to learn what are the username (JENKINS_RUNNER) and password (JENKINS_PASSWORD) of the Jenkins user. That is just a basic and rather unsecure example where empty environment variables take default values. There are of course much more safe ways of doing that. More details later.
 
+
+
 ## Where do the images come from?
 
 In a [Praqma/jcasc-core](https://github.com/Praqma/jcasc-core) you can find Dockerfiles for both Jenkins and build agent. Every time new commits appear on master the images are build and pushed to DockerHub - you can always check the latest released version there:
